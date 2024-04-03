@@ -1,0 +1,112 @@
+
+>>> %Run maze_solving.py
+
+ Using Fake SMBus 
+ Install requirements. 
+
+[0:34:51.688149735] [2117]  INFO Camera camera_manager.cpp:297 libcamera v0.0.5+83-bde9b04f
+terminate called after throwing an instance of 'Dashel::DashelException'
+  what():  Connection failed (98): Cannot bind socket to port, probably the port is already in use.
+[0:34:51.846877411] [2125]  WARN RPI vc4.cpp:383 Mismatch between Unicam and CamHelper for embedded data usage!
+[0:34:51.850337750] [2125]  INFO RPI vc4.cpp:437 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media2 and ISP device /dev/media0
+[0:34:51.850528530] [2125]  INFO RPI pipeline_base.cpp:1101 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[0:34:51.881910953] [2117]  INFO Camera camera.cpp:1033 configuring streams: (0) 1920x1080-BGR888 (1) 1920x1080-SBGGR10_CSI2P
+[0:34:51.883958907] [2125]  INFO RPI vc4.cpp:565 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 1920x1080-SBGGR10_1X10 - Selected unicam format: 1920x1080-pBAA
+Standby mode activated, waiting for signal...
+Battery at: 100
+Battery at: 99
+Battery at: 98
+Battery at: 97
+Battery at: 96
+Object compliance measure mode activated
+searching for objects...
+Battery at: 95
+[[array([126,  28, 498, 515], dtype=int32), 'cup']]
+[]
+Battery at: 94
+[]
+[]
+[]
+Battery at: 93
+[[array([363,   4, 599, 564], dtype=int32), 'cup']]
+[[array([467,  11, 589, 572], dtype=int32), 'cup']]
+Battery at: 92
+[[array([592,   4, 601, 577], dtype=int32), 'cup']]
+[[array([703,  11, 595, 574], dtype=int32), 'cup']]
+[[array([783,  24, 592, 559], dtype=int32), 'cup']]
+Battery at: 91
+[[array([869,  19, 620, 574], dtype=int32), 'cup']]
+[[array([1001,   15,  620,  611], dtype=int32), 'cup']]
+Battery at: 90
+[[array([1024,   15,  655,  630], dtype=int32), 'cup']]
+[[array([830,  12, 732, 647], dtype=int32), 'cup']]
+[[array([740,  14, 689, 667], dtype=int32), 'cup']]
+Battery at: 89
+[[array([671,  13, 728, 699], dtype=int32), 'cup']]
+[[array([646,  12, 744, 710], dtype=int32), 'cup']]
+[[array([630,  12, 776, 734], dtype=int32), 'cup']]
+Battery at: 88
+[[array([594,  10, 810, 683], dtype=int32), 'cup']]
+[[array([592,  21, 826, 693], dtype=int32), 'cup']]
+[[array([521,   9, 909, 717], dtype=int32), 'cup']]
+Battery at: 87
+[[array([508,   7, 918, 759], dtype=int32), 'cup']]
+[[array([480,   4, 926, 867], dtype=int32), 'cup']]
+Battery at: 86
+[[array([440,   0, 952, 951], dtype=int32), 'cup']]
+[[array([ 382,    0, 1016,  969], dtype=int32), 'cup']]
+[[array([ 381,    9, 1004, 1007], dtype=int32), 'cup']]
+Battery at: 85
+[[array([ 331,    4, 1073, 1070], dtype=int32), 'cup']]
+[[array([ 269,    2, 1174, 1078], dtype=int32), 'cup']]
+Battery at: 84
+[[array([ 223,   11, 1280, 1058], dtype=int32), 'cup']]
+[[array([ 114,   15, 1407, 1051], dtype=int32), 'cup']]
+[[array([  65,   21, 1452, 1057], dtype=int32), 'cup']]
+Battery at: 83
+[[array([  23,   46, 1507, 1031], dtype=int32), 'cup']]
+[]
+[]
+Battery at: 82
+[]
+[]
+[]
+Battery at: 81
+calibration results:
+        average value: 0.20845170454545456
+        error range +-: 0.0068359375
+        data points: 110
+Battery at: 80
+Battery at: 79
+Object's Compliance:  0.1
+Battery at: 78
+Battery at: 77
+[[array([1235,    9,  675,  567], dtype=int32), 'cup']]
+[]
+Battery at: 76
+[]
+[]
+[]
+Battery at: 75
+[]
+[]
+Battery at: 74
+[]
+[]
+[]
+Battery at: 73
+[]
+[]
+[]
+Battery at: 72
+[]
+[]
+[]
+Battery at: 71
+[]
+[]
+Battery at: 70
+[]
+[]
+Battery at: 69
+{'cup': 0.1}
